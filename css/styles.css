@@ -1,0 +1,29 @@
+body {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:"br br br br br"
+  "am am am am am"
+  "bg bg bg bg bg"
+  "pj pj pj pj pj"
+  "footer footer footer footer footer"
+}
+
+.banner {
+  grid-area:br;
+}
+
+.about-me {
+  grid-area:am;
+}
+
+.background {
+  grid-area:bg;
+}
+
+.projects {
+  grid-area:pj;
+}
+
+.footer {
+  grid-area:footer;
+}
