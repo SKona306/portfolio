@@ -1,6 +1,7 @@
 body {
+  max-width:95%;
   display:grid;
-  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns:15px 1fr 1fr 1fr 15px;
   grid-template-areas:"br br br br br"
   "am am am am am"
   "bg bg bg bg bg"
@@ -10,11 +11,26 @@ body {
 
 .banner {
   grid-area:br;
+  background:lightcoral;
+  border:2px solid black;
+  text-align:center;
+  margin:4px;
+  box-sizing:border-box;
 }
 
 .about-me {
   grid-area:am;
+  background:green;
+  border:2px solid black;
+  margin:4px;
+  padding:2px;
+  
 }
+
+.about-content {
+  padding:3px;
+}
+
 
 .background {
   grid-area:bg;
@@ -26,4 +42,17 @@ body {
 
 .footer {
   grid-area:footer;
+}
+
+img {
+  width:200px;
+  height:200px;
+  float: left;
+  border:2px solid black;
+  margin:4px;
+}
+
+.emphasis {
+  font-weight:bold;
+  text-decoration:underline;
 }
