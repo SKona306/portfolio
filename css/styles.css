@@ -5,7 +5,7 @@ body {
   grid-template-areas:"br br br br br"
   "am am am am am"
   "bg bg bg sb sb"
-  "pj pj pj sb sb"
+  "pj pj pj pj pj"
   "footer footer footer footer footer"
 }
 
@@ -70,4 +70,32 @@ img {
 .emphasis {
   font-weight:bold;
   text-decoration:underline;
+}
+
+.projects {
+  margin:4px;
+  padding:1em;
+  border:2px solid black;
+
+}
+
+.projects-card {
+  Border:2px solid black;
+  width:95%;
+  margin:4px;
+  padding:1em;
+}
+
+.projects-img {
+  height:150px;
+  width:200px;
+}
+
+.button{
+  background:lightblue;
+  box-shadow:2px 2px;
+  margin:1px;
+  padding:2px;
+  justify-content: center;
+  text-decoration:none;
 }
