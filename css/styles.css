@@ -4,8 +4,8 @@ body {
   grid-template-columns:15px 1fr 1fr 1fr 15px;
   grid-template-areas:"br br br br br"
   "am am am am am"
-  "bg bg bg bg bg"
-  "pj pj pj pj pj"
+  "bg bg bg sb sb"
+  "pj pj pj sb sb"
   "footer footer footer footer footer"
 }
 
@@ -28,12 +28,13 @@ body {
 }
 
 .about-content {
-  padding:3px;
+  padding:
 }
 
 
 .background {
   grid-area:bg;
+
 }
 
 .projects {
@@ -42,6 +43,14 @@ body {
 
 .footer {
   grid-area:footer;
+}
+
+.sidebar {
+  grid-area:sb;
+  background:red;
+  padding:1em;
+  margin:4px;
+  border:2px solid black;
 }
 
 img {
