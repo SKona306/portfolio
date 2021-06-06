@@ -16,10 +16,15 @@ _A website that allows collegues and future employers to see progess on my curre
 ##_Setup/Instillation Requirements_
 
 *_Go to this link in browser https://github.com/SKona306/portfolio_
+
 *_Click green code button in top right corner_
+
 *_Copy HTTPS link_
+
 *_Open command line and cd into directory where you want project_
+
 *_In command line enter: git clone [enter copied link]_
+
 *_In command line enter: code ._
 
 ##_Known Bugs_
