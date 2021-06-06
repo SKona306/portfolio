@@ -15,13 +15,17 @@ A website that allows collegues and future employers to see progess on my curren
 
 ## Setup/Instillation Requirements
 
-* Go to this link in browser https://github.com/SKona306/portfolio
+* Paste this link in browser https://github.com/SKona306/portfolio
+
 * Click green code button in top right corner of repository
+
 * Copy HTTPS link
-* Open command line enter: cd [directory name]
-* Then in command line enter: git clone [HTTPS link]
-* The project should be cloned into the directory
-* In the command line enter: code .
+
+* Open command line and enter: cd [project directory name]
+
+* In command line enter: git clone [enter copied link]
+
+* In command line enter: code .
 
 ## GH-Pages
 
