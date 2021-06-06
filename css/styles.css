@@ -1,5 +1,4 @@
 body {
-
   max-width:95%;
   display:grid;
   grid-template-columns:15px 1fr 1fr 1fr 15px;

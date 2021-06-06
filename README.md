@@ -1,38 +1,43 @@
-#_My Portfolio_
+# My Portfolio
 
-###_A webpage to access my projects and info_
+### A webpage to access my projects and info
 
-###_By Shaun Kent_
+### By Shaun Kent
 
-##_Technologies Used_
+## Technologies Used
 
-*_HTML5_
-*_CSS_
+* HTML5
+* CSS 
 
-##_Description_
+## Description
 
-_A website that allows collegues and future employers to see progess on my current projects, find contact information, and learn more about me.The focus of this application was creating a grid layout using the CSS grid while also practicing with the compounding effects of css specificity._
+A website that allows collegues and future employers to see progess on my current projects, find contact information, and learn more about me.The focus of this application was creating a grid layout using the CSS grid while also practicing with the compounding effects of css specificity.
 
-##_Setup/Instillation Requirements_
+## Setup/Instillation Requirements
 
-*_Go to this link in browser https://github.com/SKona306/portfolio_
-*_Click green code button in top right corner_
-*_Copy HTTPS link_
-*_Open command line and cd into directory where you want project_
-*_In command line enter: git clone [enter copied link]_
-*_In command line enter: code ._
+* Go to this link in browser https://github.com/SKona306/portfolio
+* Click green code button in top right corner of repository
+* Copy HTTPS link
+* Open command line enter: cd [directory name]
+* Then in command line enter: git clone [HTTPS link]
+* The project should be cloned into the directory
+* In the command line enter: code .
 
-##_Known Bugs_
+## GH-Pages
 
-*_The sidebar section of the website works perfectly with larger screens but when the width of the browser is shortened the content spills out of the set borders and the height of the box does not act responsively like the rest of the content_
+* https://skona306.github.io/portfolio/
 
-##_License_
+## Known Bugs
+
+* The sidebar section of the website works perfectly with larger screens but when the width of the browser is shortened the content spills out of the set borders and the height of the box does not act responsively like the rest of the content.
+
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-*_Copyright (c) 2021 Shaun Kent_
+* Copyright (c) 2021 Shaun Kent_
 
-##_Contact Information_
+## Contact Information
 
-*_shaunkent81@gmail.com_
+* shaunkent81@gmail.com
 
