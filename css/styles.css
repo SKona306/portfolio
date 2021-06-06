@@ -23,7 +23,7 @@ body {
   background:green;
   border:2px solid black;
   margin:4px;
-  padding:2px;
+  padding:1em;
   
 }
 
@@ -34,7 +34,11 @@ body {
 
 .background {
   grid-area:bg;
-
+  background:lightblue;
+  margin:4px;
+  border:2px solid black;
+  padding:1em;
+  box-sizing: border-box;
 }
 
 .projects {
@@ -47,10 +51,12 @@ body {
 
 .sidebar {
   grid-area:sb;
+  height:373px;
   background:red;
   padding:1em;
   margin:4px;
   border:2px solid black;
+  box-sizing:border-box;
 }
 
 img {
