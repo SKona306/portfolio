@@ -11,7 +11,7 @@ body {
 
 .banner {
   grid-area:br;
-  background:lightcoral;
+  background:rgb(140, 169, 216);
   border:2px solid black;
   text-align:center;
   margin:4px;
@@ -20,17 +20,13 @@ body {
 
 .about-me {
   grid-area:am;
-  background:green;
+  background:rgb(140, 169, 216);
   border:2px solid black;
   margin:4px;
   padding:1em;
+  font-size:18px;
   
 }
-
-.about-content {
-  padding:
-}
-
 
 .background {
   grid-area:bg;
@@ -39,22 +35,22 @@ body {
   border:2px solid black;
   padding:1em;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 .projects {
   grid-area:pj;
 }
 
-
-
 .sidebar {
   grid-area:sb;
   height:373px;
-  background:red;
+  background:lightblue;
   padding:1em;
   margin:4px;
   border:2px solid black;
   box-sizing:border-box;
+  font-size:18px;
 }
 
 img {
@@ -72,16 +68,19 @@ img {
 
 .projects {
   margin:4px;
+  background:lightcyan;
   padding:1em;
   border:2px solid black;
 
 }
 
 .projects-card {
+  background:lightgrey;
   Border:2px solid black;
   width:95%;
   margin:4px;
   padding:1em;
+  font-size:17px;
 }
 
 .projects-img {
