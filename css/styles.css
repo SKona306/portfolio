@@ -5,19 +5,27 @@ body {
   grid-template-areas:"br br br br br"
   "am am am am am"
   "bg bg bg sb sb"
-  "pj pj pj pj pj"
-}
-
-.banner {
-  grid-area:br;
-  background:rgb(140, 169, 216);
-  border:2px solid black;
-  text-align:center;
-  margin:4px;
+  "pj pj pj pj pj";
   box-sizing:border-box;
 }
 
-.about-me {
+header {
+  height:800px;
+  grid-area:br;
+  background-image:url(../img/background.jpg);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  border:2px solid black;
+  margin:4px;
+  color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+}
+
+section {
   grid-area:am;
   background:rgb(140, 169, 216);
   border:2px solid black;
@@ -33,7 +41,6 @@ body {
   margin:4px;
   border:2px solid black;
   padding:1em;
-  box-sizing: border-box;
   font-size: 16px;
 }
 
@@ -41,14 +48,13 @@ body {
   grid-area:pj;
 }
 
-.sidebar {
+aside {
   grid-area:sb;
   height:373px;
   background:lightblue;
   padding:1em;
   margin:4px;
   border:2px solid black;
-  box-sizing:border-box;
   font-size:18px;
 }
 
