@@ -1,5 +1,5 @@
 body {
-  max-width:95%;
+  width:100vw;
   display:grid;
   grid-template-columns:15px 1fr 1fr 1fr 15px;
   grid-template-areas:"br br br br br"
@@ -10,29 +10,62 @@ body {
 }
 
 header {
-  height:800px;
+  height:100vh;
   grid-area:br;
   background-image:url(../img/background.jpg);
   background-position: center;
   background-repeat:no-repeat;
   background-size:cover;
-  border:2px solid black;
   margin:4px;
   color:white;
   display:flex;
   flex-direction:column;
   justify-content:center;
   text-align:center;
+  font-family: 'Pacifico', cursive;
+}
+
+.header-title {
+  font-size: 75px;
+  padding: 5px;
+}
+
+.header-subtitle {
+  font-size: 30px;
+}
+
+.aboutme-title{
+  align-items: center;
+  display:flex;
+  justify-content:center;
+  font-family: 'Pacifico', cursive;
+  font-weight:bold;
+}
+
+.aboutme-content {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.aboutme-text {
+  width:30%;
+  float:left;
+  opacity:0;
+  transform:translateY(20px);
+  transition: 0.5s all ease-in-out;
+  content:1em;
+}
+
+.aboutme-appear {
+  opacity:1;
+  transform:translateY(0px);
 }
 
 section {
   grid-area:am;
-  background:rgb(140, 169, 216);
-  border:2px solid black;
   margin:4px;
   padding:1em;
-  font-size:18px;
-  
+  font-size:20px;
 }
 
 .background {
@@ -50,7 +83,7 @@ section {
 
 aside {
   grid-area:sb;
-  height:373px;
+  height:384px;
   background:lightblue;
   padding:1em;
   margin:4px;
@@ -58,12 +91,11 @@ aside {
   font-size:18px;
 }
 
-img {
-  width:200px;
-  height:200px;
-  float: left;
-  border:2px solid black;
-  margin:4px;
+.me {
+  height:600px;
+  width:800px;
+  margin:2em;
+  display:inline;
 }
 
 .emphasis {

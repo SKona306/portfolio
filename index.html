@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-US">
+<link href="css/css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="css/styles.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/scripts.js"></script>
 <head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
   <title>Shaun's Portfolio</title>
 </head>
 <body>
-  <div class="banner">
-    <h1>My Portfolio</h1>
-  </div>
-  <div class="about-me">
-    <img src="img/mecr.jpg">
-    <div class="about-content">
-      <h1 >Shaun Kent</h1>
-      <h2><span class="emphasis">About me:</span></h2>
-      <p style="text-indent:2em;">Hello, my name is Shaun Kent, Im 24 years old and currently reside in southwest Washington. I was raised and currently still live in a small town 20 minutes outside of Portland called Battle Ground. Some of my interests include basketball, cryptocurrency, and astrophysics just to name a few. At the current moment I am employed as a cook but in past I have had the opportunity to work as a student mentor, student diversity correspondent and tutor. I graduated from university in 2019 with a bachelors in Public Affairs, after spending a couple years working I realized that I didn't have a passion for politics. I've always been fascinated with technology both in terms of its growth and potential which has pushed me to pursue my path towards becoming a web developer. I hope to combine the knowledge that I obtained about public policy with the experience that I have as a web developer to create well designed, functional, and accessible websites.Thank you for checking out my portfolio.</p>
+  <header>
+    <div class="header-text">
+      <h1 class="header-title">My Portfolio</h1>
+      <p class="header-subtitle">Developing logical and accessible webpages</p>
     </div>
-  </div>
+  </header>
+
+  <section>
+    <div class="about-me">
+      <div class="aboutme-title">
+        <h1 >About Me</h1>
+      </div>
+      <div class="aboutme-content">
+        <div class="aboutme-text">
+          <h2><span class="emphasis">Shaun Kent</span></h2>
+          <p style="text-indent:2em;">Hello, my name is Shaun Kent, Im 24 years old and currently reside in southwest Washington. Some of my interests include basketball, cryptocurrency, and astrophysics just to name a few. At the current moment I am employed as a cook but in past I have had the opportunity to work as a student mentor and tutor. I graduated from WSUV in 2019 with a bachelors in Public Affairs, after spending a couple years working I realized that I didn't have a passion for politics. I've always been fascinated with technology both in terms of its growth and potential which has pushed me to pursue my path towards becoming a web developer. I hope to combine the knowledge that I obtained about public policy with the experience that I have as a web developer to create well designed, functional, and accessible websites.Thank you for checking out my portfolio.</p>
+        </div>
+        <img class="me" src="img/me.jpg">
+      </div>
+    </div>
+  </section>
 
   <div class="background">
     <h1><span class="emphasis">Background:</span></h1>
@@ -38,13 +53,13 @@
       </ul>
   </div>
   
-  <div class="sidebar">
+ <aside>
     <h2><span class="emphasis">Contact Information:</span></h2>
     <h3>Questions or Comments?</h3>
     <p><strong>Email Adress:</strong> shaunkent81@gmail.com</p>
     <p><strong>Check out my Github:</strong> @SKona306</p>
-  </div>
-  
+  </aside>
+ 
   <div class="projects">
     <h1><span class="emphasis">Current Projects:</span></h1>
     <div class="projects-card">
