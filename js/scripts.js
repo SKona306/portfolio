@@ -1,3 +1,4 @@
+// Business Logic
 function scrollAppear() {
   const aboutMeText = document.querySelector(".aboutme-text");
   const aboutMePosition = aboutMeText.getBoundingClientRect().top;
@@ -9,3 +10,5 @@ function scrollAppear() {
 };
 
 window.addEventListener("scroll" ,scrollAppear);
+
+// User Logic
